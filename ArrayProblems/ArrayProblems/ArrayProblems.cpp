@@ -13,12 +13,14 @@ void merge(vector<int>& v1, int m, vector<int>& v2, int n);
 int singleNumber(vector<int>& v);
 int majorityElement(vector<int>& v);
 bool containsDuplicate(vector<int>& v);
+void moveZeroes(vector<int>& v);
 
 int main()
 {
 
-    vector<int> v{ 1,2,3,1 };
+    vector<int> v{1,2,3,4,5 };
 
+    moveZeroes(v);
     for (size_t i = 0;i < v.size();i++)
     {
         cout << v[i];
@@ -268,4 +270,20 @@ bool containsDuplicate(vector<int>& v)
         }
     }
     return flag;
+}
+void moveZeroes(vector<int>& v) {
+    int s = v.size();
+    v.erase(
+            remove(v.begin(), v.end(), 0),
+            v.end());
+
+    int res= accumulate(v.begin() + 1, v.begin() + 4, 0);
+    cout << res;
+
+    /*int n = s - v.size();
+    for (size_t i = 0;i < n;i++)
+    {
+        v.push_back(0);
+    }*/
+
 }
