@@ -1,0 +1,11 @@
+﻿  ArrayProblems.cpp
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(55,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(88,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(99,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(103,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(129,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(140,24): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(147,23): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(157,34): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Borno\Desktop\cpp\ArrayProblems\ArrayProblems\ArrayProblems.cpp(170,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ArrayProblems.vcxproj -> C:\Users\Borno\Desktop\cpp\ArrayProblems\x64\Debug\ArrayProblems.exe
